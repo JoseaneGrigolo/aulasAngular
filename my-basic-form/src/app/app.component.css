@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container form {
+  border: 2px dashed rgb(17, 1, 88);
+  height: 25rem;
+  width: 25rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-header {
+  border-bottom: 2px dashed rgb(11, 13, 122);
+}
+
+.form-title {
+  text-align: center;
+  font-style: italic;
+  color: rgb(17, 8, 99);
+  text-shadow: 10px 10px 10px rgb(57, 104, 207);
+  /* text-transform: uppercase;*/
+}
+
+.form-content {
+  padding: 2rem;
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-areas:
+    "fn"
+    "pass"
+    "btn";
+  gap: 1.2rem;
+}
+
+.input-container {
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.input-label {
+  color: rgb(37, 15, 117);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
