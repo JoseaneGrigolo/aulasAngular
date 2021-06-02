@@ -1,9 +1,9 @@
 .my-button {
-  width: 70%;
+  width: 50%;
   height: 3rem;
   display: flex;
   margin-top: 10px;
-  margin-left: 60px;
+  margin-left: 140px;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
@@ -17,13 +17,4 @@
 .my-button:hover {  
   background: rgb(231, 12, 166);
   color: #fff;
-}
-.my-button2 {
-  display: flex;
-  margin-top: 10px;
-  justify-content: center;
-  align-items: center;
-  font-size: 1rem;
-  font-weight: bold;
-  color: rgb(69, 16, 168);
 }

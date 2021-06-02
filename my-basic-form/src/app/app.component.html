@@ -2,12 +2,32 @@
     <form>
 
         <div class="form-header">
-            <h1 class="form-title">Login</h1>
+            <h1 class="form-title">Cadastro de Usuário</h1>
         </div>
 
         <div class="form-content">
             <div class="input-container" style="grid-area: fn;">
-                <label for="" class="input-label"> UserName: </label>
+                <label for="" class="input-label"> Nome: </label>
+                <my-input></my-input>
+            </div>
+
+            <div class="input-container" style="grid-area: ln;">
+                <label for="" class="input-label"> Sobrenome: </label>
+                <my-input></my-input>
+            </div>
+
+            <div class="input-container" style="grid-area: ag;">
+                <label for="" class="input-label"> Idade: </label>
+                <my-input></my-input>
+            </div>
+
+            <div class="input-container" style="grid-area: cf;">
+                <label for="" class="input-label"> CPF: </label>
+                <my-input></my-input>
+            </div>
+
+            <div class="input-container" style="grid-area: em;">
+                <label for="" class="input-label"> E-mail: </label>
                 <my-input></my-input>
             </div>
 
@@ -23,4 +43,9 @@
         </div>
 
     </form>
+    
 </div>
+
+<ng-container>
+    <ng-content></ng-content>
+</ng-container>
