@@ -1,0 +1,31 @@
+<div class="card d-flex">
+ 
+    <div class="bg-success">
+        <label class="text-white text-center col">Comprinhas:</label>
+        <input class="form-control-sm col" type="text" [(ngModel)]="addToList" name="item">
+        <!--Criando-->
+        <button class="btn btn-primary text-center col" (click)="postMylist()">Adicionar!</button>
+    </div>
+
+    <!--Listando com checkbox-->
+    <div class="bg-warning">
+        <ol>
+            <li *ngFor="let item of list; let pos = index">
+                <div class="checkbox">
+                    <label><input type="checkbox" (click)="contador(pos)" />{{item}}</label>
+                </div>
+            </li>
+        </ol>
+    </div>
+
+    <!--Deletando-->
+    <div class="bg-info">
+        <ul>
+            <li *ngFor="let del of adicionados;">
+                <p>{{del}}</p>                
+                <button class="btn btn-danger text-center" (click)="deleteAdicionado()">Excluir!</button>
+            </li>
+        </ul>
+    </div>
+
+</div>
