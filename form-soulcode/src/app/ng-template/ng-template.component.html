@@ -1,0 +1,12 @@
+<div class="card" *ngIf="showCard == true; else myTemplate">
+    <p>Texto do card</p>
+</div>
+
+<ng-template #myTemplate>
+<h1>Else no ngIf</h1>
+</ng-template>
+
+<label>
+    Mostar Card
+    <input type="checkbox" (change)="showCard = !showCard" checked="true">
+</label>

@@ -1,0 +1,26 @@
+<label>
+    MOSTRAR BTN 1 
+    <input type="radio" name="btn" value="1" (change)="changeBtnNumberValue($event)">
+</label>
+
+<label>
+    MOSTRAR BTN 2
+    <input type="radio" name="btn" value="2" (change)="changeBtnNumberValue($event)">
+</label>
+
+<label>
+    MOSTRAR BTN 3
+    <input type="radio" name="btn" value="3" (change)="changeBtnNumberValue($event)">
+</label>
+
+<label>
+    MOSTRAR BTN 4
+    <input type="radio" name="btn" (change)="changeBtnNumberValue($event)">
+</label>
+
+<div [ngSwitch]="btnNumber">
+    <button *ngSwitchCase="1">btn 01</button>
+    <button *ngSwitchCase="2">btn 02</button>
+    <button *ngSwitchCase="3">btn 03</button>
+    <button *ngSwitchDefault>btn 04</button>
+</div>

@@ -6,10 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./event-emit.component.css']
 })
 export class EventEmitComponent {
-
- sendMessage(event:any){
-   alert("O numero recebido foi " + event)
-
-
- }
+  sendMessage(event: any){
+    alert(`O número recebido foi ${event}`)
+  }
 }

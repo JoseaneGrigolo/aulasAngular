@@ -1,0 +1,18 @@
+<label>
+    Vermelho
+    <input type="radio" name="colors" (change)="changeColor($event)" value="red">
+</label>
+
+
+<label>
+    Verde
+    <input type="radio" name="colors" (change)="changeColor($event)" value="green">
+</label>
+
+<label>
+    font-size: 20px?
+    <input type="checkbox" (change)="changeFonteSize($event)" value="20px">
+</label>
+
+
+<p [ngStyle]="{ color: myColor, fontSize: myFonteSize }">Algum texto</p>
