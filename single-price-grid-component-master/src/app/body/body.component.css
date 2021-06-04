@@ -1,0 +1,43 @@
+.card-body {
+  background-color: hsl(179, 62%, 43%);
+  width: 50%;
+}
+.pbody,
+.h5body {
+  background-color: hsl(179, 62%, 43%);
+  color: white;
+}
+.sm1 {
+  font-size: 35px;
+  background-color: hsl(179, 62%, 43%);
+}
+.sm2 {
+  color: hsl(219, 24%, 81%);
+  font-size: 16px;
+  background-color: hsl(179, 62%, 43%);
+}
+
+/*body e footer*/
+
+h5 {
+  background-color: hsl(179, 56%, 50%);
+}
+p {
+  color: hsl(217, 37%, 91%);
+  background-color: hsl(179, 56%, 50%);
+}
+.card-footer {
+  background-color: hsl(179, 56%, 50%);
+  width: 50%;
+}
+
+@media (max-width: 770px) {
+  .card-footer,
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+
+}
