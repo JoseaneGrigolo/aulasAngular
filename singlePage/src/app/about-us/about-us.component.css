@@ -1,0 +1,20 @@
+.risco {
+  padding-bottom: 15px;
+  border-bottom: 4px solid rgb(124, 207, 45);
+}
+.tamanho1 {
+  height: 100px;
+  width: 130px;
+  background-image: url("../images/1.jpg");
+}
+.tamanho2 {
+  height: 100px;
+  width: 130px;
+  background-image: url("../images/2.jpg");
+}
+.tamanho3 {
+  height: 100px;
+  width: 130px;
+  background-image: url("../images/3.jpg");
+}
+h4 { margin-top: 20px;}

@@ -1,0 +1,17 @@
+.fundo {
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tamanho {
+  height: 27px;
+  width: 27px;
+  display: flex;
+  float:left;
+  background-image: url("../images/rocket-solid.svg");
+}
+.imagem {
+  width: 100%;
+  background-image: url("../images/Macbook.png");
+}

@@ -1,0 +1,33 @@
+.risco {
+  padding-bottom: 15px;
+  border-bottom: 4px solid rgb(124, 207, 45);
+}
+.risco2 {
+  border-bottom: 1px solid rgb(185, 183, 183);
+  width: 100%;
+}
+.fundo {
+  background-color: rgb(235, 233, 233);
+}
+.fundo1 {
+  background-color: rgb(212, 209, 209);
+  width: 100%;
+}
+.fundo2 {
+  background-color: rgb(243, 243, 243);
+}
+.fundo3 {
+  background-color: rgb(124, 207, 45);
+}
+.fundo4 {
+  background-color: rgb(114, 192, 42);
+  width: 100%;
+}
+small {
+  font-size: 16px;
+  color: rgb(116, 112, 112);
+}
+span {
+  font-size: 15px;
+  color: gray;
+}

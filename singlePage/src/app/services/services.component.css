@@ -1,0 +1,52 @@
+.risco {
+  padding-bottom: 15px;
+  border-bottom: 4px solid rgb(124, 207, 45);
+}
+.services,
+.titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cinza {
+  background-color: rgb(238, 238, 238);  
+}
+h5 { margin-top: 30px;}
+.action {
+  background-image: url("../images/dashboard-img.jpg");
+  height: 350px;
+  width: 100%;
+}
+.tamanho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 27px;
+  width: 27px;
+  background-image: url("../images/network-wired-solid.svg");
+}
+.tamanho1 {
+  height: 27px;
+  width: 27px;
+  background-image: url("../images/rocket-solid.svg");
+}
+.tamanho2 {
+  height: 27px;
+  width: 27px;
+  background-image: url("../images/vector-square-solid.svg");
+}
+.tamanho3 {
+  height: 27px;
+  width: 27px;
+  background-image: url("../images/magic-solid.svg");
+}
+.tamanho4 {
+  height: 27px;
+  width: 27px;
+  background-image: url("../images/network-wired-solid.svg");
+}
+.tamanho5 {
+  height: 27px;
+  width: 27px;
+  background-image: url("../images/rocket-solid.svg");
+}

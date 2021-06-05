@@ -1,0 +1,43 @@
+.risco {
+  padding-bottom: 15px;
+  border-bottom: 4px solid white;
+}
+.footer, .titulo  {
+  background-color: rgb(124, 207, 45);
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.espaco {
+  height: 60px;
+}
+.tamanho {
+  height: 20px;
+  width: 25px;
+  background-image: url("../images/facebook-f-brands.svg");
+}
+.tamanho1 {
+  height: 20px;
+  width: 40px;
+  margin-left: 5px;
+  background-image: url("../images/twitter-brands.svg");
+}
+.tamanho2 {
+  height: 20px;
+  width: 36px;
+  margin-left: 5px;
+  background-image: url("../images/instagram-brands.svg");
+}
+.tamanho3 {
+  height: 20px;
+  width: 50px;
+  margin-left: 5px;
+  background-image: url("../images/google-plus-g-brands.svg");
+}
+.tamanho4 {
+  height: 20px;
+  width: 38px;
+  margin-left: 5px;
+  background-image: url("../images/pinterest-brands.svg");
+}

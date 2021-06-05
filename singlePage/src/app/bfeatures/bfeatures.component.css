@@ -1,0 +1,25 @@
+h2 {
+  padding-bottom: 15px;
+  border-bottom: 4px solid rgb(124, 207, 45);
+}
+h4 { margin-top: 20px;}
+.tamanho {
+  height: 20px;
+  width: 27px;
+  background-image: url("../images/mobile-alt-solid.svg");
+}
+.imagem2 {
+  height: 20px;
+  width: 50px;
+  background-image: url("../images/code-solid.svg");
+}
+.imagem3 {
+  height: 20px;
+  width: 40px;
+  background-image: url("../images/vector-square-solid.svg");
+}
+.imagem4 {
+  height: 20px;
+  width: 40px;
+  background-image: url("../images/pencil-alt-solid.svg");
+}
